@@ -53,14 +53,13 @@ function createTable(columns, even) {
     //ROW1
     tableHtml += "<tr>"
     for (var j = 0; j < columns; j++) {
-        tableHtml += "<th><img src='Patamon.webp'>Patamon</th>";
+        tableHtml += "<th><img src='Digitama.jpg'>???</th>";
     }
     tableHtml += "</tr>"
     //ROW2
     if (!even) columns = columns - 1;
     for (var j = 0; j < columns; j++) {
-        tableHtml += "<th><img src='Patamon.webp'>Patamon</th>";
+        tableHtml += "<th><img src='Digitama.jpg'>???</th>";
     }
-
     return tableHtml;
 }
